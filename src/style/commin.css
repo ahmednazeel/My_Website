@@ -1,0 +1,113 @@
+.fs_1-5 {
+    font-size: var(--fs_1-5);
+}
+.fs_1-8 {
+    font-size: var(--fs_1-8);
+}
+.fs_2 {
+    font-size: var(--fs_2);
+}
+.fs_2-4 {
+    font-size: var(--fs_2-4);
+}
+.fs_3-6 {
+    font-size: var(--fs_3-6);
+}
+.fs_4-6 {
+    font-size: var(--fs_4-6);
+}
+
+
+/* COLOR */
+.c-first {color: var(--c-first);}
+.c-second {
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-image: var(--c-second);
+}
+.c-namePage {
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-image: var(--c-namePage);
+}
+.c-titleSection {
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-image: var(--c-titleSection);
+}
+.c-third {
+    color: var(--c-third);
+}
+.c-gray {color: var(--c-gray);}
+
+
+
+
+
+
+
+.shadow {box-shadow: var(--shadow);}
+.f-italic{font-style: italic;}
+.title-comp{
+    color: var(--c-gray);
+    position: relative;    
+    font-size: 3rem;
+    width: fit-content;
+    margin-bottom: 0;
+    padding-block: 15px;
+}
+.title-comp::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3%;
+    background-color: var(--c-second);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.title-comp:hover::after {
+    width: 100%;
+}
+.box-shadow {box-shadow: var(--box-shadow);}
+.bor-bottom {
+    border-bottom: 1px solid var(--c-border) !important;
+}
+.bor-rounded {
+    border: 1px solid var(--c-border) !important;
+}
+.icon-gif {
+    width: 33px;
+    border-radius: 9px;
+}
+
+/* 
+linear-gradient(to top, #ffffff 81%, #ace0f9 111%);
+
+
+
+color:
+s-coned:  linear-gradient(90deg, rgb(0 0 0) 19%, rgb(141 141 141) 48%, rgb(133 133 133) 75%);
+c-gray: #1a1a1a 
+*/

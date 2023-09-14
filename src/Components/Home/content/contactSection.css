@@ -1,0 +1,65 @@
+.title-contact {
+  margin-bottom: 40px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid var(--c-border) !important;
+  outline: none;
+  border-radius: 7px;
+  background-color: transparent;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+/* <div className=' d-flex align-items-center gap-5 mb-5'> */
+.contact-form .inputs div {
+  width: 50%;
+}
+.contact-form input {
+  padding-left: 30px;
+  color: var(--c-gray);
+  font-size: 18px;
+  height: 53px;
+
+  width: 100%;
+}
+.contact-form textarea {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.contact-form button {
+  display: block;
+  margin-left: auto;
+  margin-top: 25px;
+  width: 180px;
+  text-align: center;
+  height: 42px;
+  border: none;
+  font-size: 18px;
+  border-radius: 9px;
+  color: #4b4b4b;
+  background: var(--c-second);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+.contact-form button img.icon-gif {
+  width: 24px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .inputs {
+    flex-direction: column;
+  }
+  .contact-form .inputs div {
+    width: 100%;
+  }
+}

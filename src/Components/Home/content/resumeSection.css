@@ -1,0 +1,87 @@
+.eductions {
+  margin-block: 25px;
+  position: relative;
+}
+
+.eductions:nth-of-type(2) {
+  margin-top: 100px;
+}
+
+.eductions::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 33px;
+  width: 2px;
+  background-color: var(--c-border);
+  height: 100%;
+  z-index: -1;
+}
+.eductions.dir-right::after {
+  right: 14px;
+}
+
+.edu-box {
+  margin-left: 43px;
+  margin-block: 40px;
+}
+.eductions.dir-right .edu-box {
+  margin-right: 43px;
+  margin-left: 0;
+}
+.edu-box .title-certificate {
+  margin-block: 10px;
+  position: relative;
+}
+.edu-box .title-certificate::after {
+  content: "";
+  position: absolute;
+  left: -36px;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: var(--c-second);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  z-index: 2;
+  border: 4px solid #373737f2;
+}
+.eductions.dir-right .edu-box .title-certificate::after {
+  right: -36px;
+  z-index: 2;
+}
+
+.certificate-years {
+  margin-block: 12px;
+}
+.edu-box.one {
+  margin-bottom: 140px;
+}
+
+.certificate-img img {
+  width: 100%;
+  height: 320px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.edu-box > * {
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .experience .edu-box {
+    flex-direction: column;
+  }
+  .edu-box > * {
+    width: 100%;
+  }
+  .certificate-img img {
+    height: fit-content;
+  }
+}

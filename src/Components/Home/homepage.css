@@ -1,0 +1,7 @@
+/* .container{margin: auto !important;} */
+.page-content {margin-bottom: 30px;}
+@media (max-width: 770px) {
+  div.page-content {
+    flex-direction: column !important;
+  }
+}

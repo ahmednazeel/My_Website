@@ -1,0 +1,28 @@
+.side-info{
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--background-box);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.desc-info {
+    width: 230px;
+    padding-block: 15px;
+    font-size: 13px;
+    color: var(--c-first);
+    font-style: italic;
+} 
+.list-item_one{
+    margin-block:21px;
+}
+.list-item_one img {
+    width: 33px;
+    border-radius: 9px;
+}
+@media (max-width:770px) {
+    .desc-info {
+        width: 100%;
+    }
+}

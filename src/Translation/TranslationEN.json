@@ -1,0 +1,51 @@
+{
+  "mainPage": {
+    "jopTitle": "Professional Front-End Web Developer",
+    "name": "ahmed waled nazeel",
+    "jopDescription": "My Job Is To Build Your Website So That It Is Functional And User-Friendly But At The Same Time Attractive.",
+    "aboutSection": {
+      "title": "about",
+      "aboutDesc": "Moreover, I Add Personal Touch To Your Product And Make Sure That Is Eye-Catching And Easy To Use. My Aim Is To Bring Across Your Message And Identity In The Most Creative Way. I Created Web Design For Many Projucts",
+      "country": "Cairo || Egypt",
+      "githubLink": "github",
+      "linkedinLink": "linkedin"
+    },
+    "resume": {
+      "title": "resume",
+
+      "sec_eduction": {
+        "headSEC": "eduction",
+        "university": "ain shams university",
+        "years": "2023-2024",
+        "discCertificate": "bachelor's degree in philosophical studies, faculty of arts (student)"
+      },
+
+      "sec_experience": {
+        "experience": "experience",
+
+        "sec_certificate_1": [
+          "udacity",
+          "2021-2022",
+          "It's A Graduation Certificate That I Obtained From A Grant From The Egyptian Ministry Of Communications (Fwd Egypt) With The Cooperation Of The Udacity Platform"
+        ],
+
+        "sec_certificate_two": [
+          "The Johns Hopkins University",
+          "2021-2022",
+          "I Spend In My Classroom For Five Weeks ,I Learned Html, Css, Javascript And Bootstrap And Applied To Projects"
+        ]
+      }
+    },
+    "skillTitle":"my skills"
+  },
+  "projectPage": {
+    "titleSEC": "project"
+  },
+  "contactPage": {
+    "title": "contact",
+    "titleSEC": "contact with me",
+    "subTitle": "I Will Be Happy When We Communicate Together",
+    "inputs":["Full Name","Your Email","Message","Send My"]
+    
+  }
+}
